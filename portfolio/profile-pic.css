@@ -1,0 +1,17 @@
+/* Place your profile picture in the portfolio directory as 'profile.jpg' or update the filename below. */
+
+.hero-profile-pic {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #7fd1b9;
+  box-shadow: 0 4px 18px #7fd1b955;
+  margin-bottom: 1.2rem;
+  background: #23272f;
+  transition: box-shadow 0.3s, transform 0.3s;
+}
+.hero-profile-pic:hover {
+  box-shadow: 0 8px 32px #7fd1b9cc;
+  transform: scale(1.04);
+}
